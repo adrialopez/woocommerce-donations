@@ -1,0 +1,1240 @@
+# Copyright (C) 2024 Donaciones para WooCommerce
+# This file is distributed under the same license as the Donaciones para WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Donaciones para WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/donations-for-woocommerce\n"
+"POT-Creation-Date: 2024-01-20 12:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Donaciones para WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/tu-usuario/donations-for-woocommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Sistema completo de donaciones para fundaciones con soporte para pagos únicos y recurrentes a través de WooCommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tu Nombre"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://tu-web.com"
+msgstr ""
+
+#: donations-for-woocommerce.php:25
+msgid "Donaciones WooCommerce requiere que WooCommerce esté instalado y activado."
+msgstr ""
+
+#: donations-for-woocommerce.php:147
+msgid "Donación a la Fundación"
+msgstr ""
+
+#: donations-for-woocommerce.php:149
+msgid "Producto para procesar donaciones a la fundación"
+msgstr ""
+
+#: donations-for-woocommerce.php:220
+msgid "Donaciones"
+msgstr ""
+
+#: donations-for-woocommerce.php:230
+msgid "Configuración"
+msgstr ""
+
+#: donations-for-woocommerce.php:240
+msgid "Reportes"
+msgstr ""
+
+#: donations-for-woocommerce.php:250
+msgid "Donantes"
+msgstr ""
+
+#: donations-for-woocommerce.php:394
+msgid "Sin permisos suficientes"
+msgstr ""
+
+#: donations-for-woocommerce.php:426
+msgid "El monto es menor al mínimo permitido"
+msgstr ""
+
+#: donations-for-woocommerce.php:430
+msgid "Email inválido"
+msgstr ""
+
+#: donations-for-woocommerce.php:461
+msgid "Error de configuración"
+msgstr ""
+
+#: donations-for-woocommerce.php:479
+msgid "Error al procesar donación"
+msgstr ""
+
+#: donations-for-woocommerce.php:498
+msgid "Donación procesada correctamente"
+msgstr ""
+
+#: donations-for-woocommerce.php:548
+msgid "Donación Mensual"
+msgstr ""
+
+#: donations-for-woocommerce.php:549
+msgid "Donación Única"
+msgstr ""
+
+#: donations-for-woocommerce.php:552
+msgid "Tipo"
+msgstr ""
+
+#: donations-for-woocommerce.php:558
+msgid "Mensaje"
+msgstr ""
+
+#: donations-for-woocommerce.php:659
+msgid "Nueva donación recibida - %s"
+msgstr ""
+
+#: donations-for-woocommerce.php:661
+msgid "Se ha recibido una nueva donación:\n\nDonante: %s\nMonto: %s\nEmail: %s\n\nVer pedido: %s"
+msgstr ""
+
+#: donations-for-woocommerce.php:686
+msgid "Meta de Donaciones"
+msgstr ""
+
+#: templates/donation-form.php:95
+msgid "Tipo de Donación"
+msgstr ""
+
+#: templates/donation-form.php:98
+msgid "Una vez"
+msgstr ""
+
+#: templates/donation-form.php:100
+msgid "Mensual"
+msgstr ""
+
+#: templates/donation-form.php:103
+msgid "Las donaciones mensuales se procesarán automáticamente cada mes. Puedes cancelar en cualquier momento."
+msgstr ""
+
+#: templates/donation-form.php:112
+msgid "¿Cuánto te gustaría donar?"
+msgstr ""
+
+#: templates/donation-form.php:127
+msgid "Cantidad personalizada (%s)"
+msgstr ""
+
+#: templates/donation-form.php:136
+msgid "Información Personal"
+msgstr ""
+
+#: templates/donation-form.php:140
+msgid "Nombre"
+msgstr ""
+
+#: templates/donation-form.php:148
+msgid "Apellidos"
+msgstr ""
+
+#: templates/donation-form.php:156
+msgid "Correo electrónico"
+msgstr ""
+
+#: templates/donation-form.php:164
+msgid "País"
+msgstr ""
+
+#: templates/donation-form.php:167
+msgid "Selecciona tu país"
+msgstr ""
+
+#: templates/donation-form.php:170
+msgid "España"
+msgstr ""
+
+#: templates/donation-form.php:171
+msgid "México"
+msgstr ""
+
+#: templates/donation-form.php:172
+msgid "Argentina"
+msgstr ""
+
+#: templates/donation-form.php:173
+msgid "Colombia"
+msgstr ""
+
+#: templates/donation-form.php:174
+msgid "Perú"
+msgstr ""
+
+#: templates/donation-form.php:175
+msgid "Chile"
+msgstr ""
+
+#: templates/donation-form.php:176
+msgid "Estados Unidos"
+msgstr ""
+
+#: templates/donation-form.php:177
+msgid "Francia"
+msgstr ""
+
+#: templates/donation-form.php:178
+msgid "Alemania"
+msgstr ""
+
+#: templates/donation-form.php:179
+msgid "Italia"
+msgstr ""
+
+#: templates/donation-form.php:180
+msgid "Portugal"
+msgstr ""
+
+#: templates/donation-form.php:181
+msgid "Brasil"
+msgstr ""
+
+#: templates/donation-form.php:182
+msgid "Canadá"
+msgstr ""
+
+#: templates/donation-form.php:183
+msgid "Australia"
+msgstr ""
+
+#: templates/donation-form.php:184
+msgid "Otro"
+msgstr ""
+
+#: templates/donation-form.php:194
+msgid "Mensaje (opcional)"
+msgstr ""
+
+#: templates/donation-form.php:199
+msgid "Deja un mensaje de apoyo..."
+msgstr ""
+
+#: templates/donation-form.php:205
+msgid "Método de Pago"
+msgstr ""
+
+#: templates/donation-form.php:212
+msgid "PayPal"
+msgstr ""
+
+#: templates/donation-form.php:215
+msgid "Pago seguro con PayPal"
+msgstr ""
+
+#: templates/donation-form.php:225
+msgid "Tarjeta de Crédito/Débito"
+msgstr ""
+
+#: templates/donation-form.php:228
+msgid "Visa, Mastercard, American Express"
+msgstr ""
+
+#: templates/donation-form.php:238
+msgid "Transferencia Bancaria"
+msgstr ""
+
+#: templates/donation-form.php:241
+msgid "Solo para donaciones únicas"
+msgstr ""
+
+#: templates/donation-form.php:252
+msgid "Tu email"
+msgstr ""
+
+#: templates/donation-form.php:256
+msgid "correo@ejemplo.com"
+msgstr ""
+
+#: templates/donation-form.php:267
+msgid "Resumen de tu donación"
+msgstr ""
+
+#: templates/donation-form.php:269
+msgid "Tipo:"
+msgstr ""
+
+#: templates/donation-form.php:273
+msgid "Cantidad:"
+msgstr ""
+
+#: templates/donation-form.php:277
+msgid "Método:"
+msgstr ""
+
+#: templates/donation-form.php:281
+msgid "Total:"
+msgstr ""
+
+#: templates/donation-form.php:290
+msgid "Selecciona una cantidad"
+msgstr ""
+
+#: templates/donation-form.php:294
+msgid "Tu información está protegida con encriptación SSL de 256 bits"
+msgstr ""
+
+#: templates/donation-button.php:25
+msgid "Donar %s"
+msgstr ""
+
+#: templates/donation-button.php:45
+msgid "Donar %s a %s"
+msgstr ""
+
+#: templates/donation-progress.php:47
+msgid "recaudado"
+msgstr ""
+
+#: templates/donation-progress.php:52
+msgid "de"
+msgstr ""
+
+#: templates/donation-progress.php:66
+msgid "¡Meta alcanzada!"
+msgstr ""
+
+#: templates/donation-progress.php:68
+msgid "completado"
+msgstr ""
+
+#: templates/donation-progress.php:77
+msgid "restantes"
+msgstr ""
+
+#: templates/donation-progress.php:89
+msgid "persona ha donado"
+msgid_plural "personas han donado"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/donation-progress.php:97
+msgid "Donar Ahora"
+msgstr ""
+
+#: includes/admin-page.php:15
+msgid "No tienes permisos suficientes para acceder a esta página."
+msgstr ""
+
+#: includes/admin-page.php:40
+msgid "Configuración guardada correctamente."
+msgstr ""
+
+#: includes/admin-page.php:84
+msgid "🎯 Donaciones WooCommerce"
+msgstr ""
+
+#: includes/admin-page.php:85
+msgid "Gestiona las donaciones de tu fundación de forma fácil y profesional"
+msgstr ""
+
+#: includes/admin-page.php:90
+msgid "Total Este Mes"
+msgstr ""
+
+#: includes/admin-page.php:95
+msgid "Donaciones"
+msgstr ""
+
+#: includes/admin-page.php:100
+msgid "Recurrentes"
+msgstr ""
+
+#: includes/admin-page.php:107
+msgid "General"
+msgstr ""
+
+#: includes/admin-page.php:111
+msgid "Apariencia"
+msgstr ""
+
+#: includes/admin-page.php:115
+msgid "Pagos"
+msgstr ""
+
+#: includes/admin-page.php:119
+msgid "Emails"
+msgstr ""
+
+#: includes/admin-page.php:123
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/admin-page.php:130
+msgid "Configuración General"
+msgstr ""
+
+#: includes/admin-page.php:136
+msgid "Nombre de la Fundación"
+msgstr ""
+
+#: includes/admin-page.php:148
+msgid "Nombre que aparecerá en el formulario de donación"
+msgstr ""
+
+#: includes/admin-page.php:153
+msgid "Descripción"
+msgstr ""
+
+#: includes/admin-page.php:161
+msgid "Texto motivacional que aparece en la cabecera del formulario"
+msgstr ""
+
+#: includes/admin-page.php:166
+msgid "Montos Predefinidos"
+msgstr ""
+
+#: includes/admin-page.php:181
+msgid "Define los montos que aparecerán como opciones rápidas"
+msgstr ""
+
+#: includes/admin-page.php:186
+msgid "Permitir Cantidad Personalizada"
+msgstr ""
+
+#: includes/admin-page.php:196
+msgid "Permite que los donantes ingresen su propia cantidad"
+msgstr ""
+
+#: includes/admin-page.php:201
+msgid "Monto Mínimo"
+msgstr ""
+
+#: includes/admin-page.php:215
+msgid "Cantidad mínima permitida para donaciones"
+msgstr ""
+
+#: includes/admin-page.php:220
+msgid "Habilitar Donaciones Recurrentes"
+msgstr ""
+
+#: includes/admin-page.php:230
+msgid "Permite donaciones mensuales automáticas"
+msgstr ""
+
+#: includes/admin-page.php:237
+msgid "Personalización de Apariencia"
+msgstr ""
+
+#: includes/admin-page.php:243
+msgid "Color Primario"
+msgstr ""
+
+#: includes/admin-page.php:253
+msgid "Color principal del formulario (botones, acentos)"
+msgstr ""
+
+#: includes/admin-page.php:258
+msgid "Color de Fondo"
+msgstr ""
+
+#: includes/admin-page.php:268
+msgid "Color de fondo del formulario"
+msgstr ""
+
+#: includes/admin-page.php:273
+msgid "Estilo del Formulario"
+msgstr ""
+
+#: includes/admin-page.php:277
+msgid "Moderno (redondeado)"
+msgstr ""
+
+#: includes/admin-page.php:280
+msgid "Clásico (esquinas rectas)"
+msgstr ""
+
+#: includes/admin-page.php:283
+msgid "Minimalista"
+msgstr ""
+
+#: includes/admin-page.php:285
+msgid "Estilo visual del formulario de donación"
+msgstr ""
+
+#: includes/admin-page.php:290
+msgid "Mostrar Logo"
+msgstr ""
+
+#: includes/admin-page.php:300
+msgid "Mostrar el logo de la fundación en el formulario"
+msgstr ""
+
+#: includes/admin-page.php:307
+msgid "👀 Vista Previa"
+msgstr ""
+
+#: includes/admin-page.php:317
+msgid "Cantidad personalizada"
+msgstr ""
+
+#: includes/admin-page.php:325
+msgid "Configuración de Métodos de Pago"
+msgstr ""
+
+#: includes/admin-page.php:328
+msgid "Nota:"
+msgstr ""
+
+#: includes/admin-page.php:329
+msgid "Los métodos de pago se configuran a través de WooCommerce. Aquí puedes habilitarlos específicamente para donaciones."
+msgstr ""
+
+#: includes/admin-page.php:331
+msgid "Configurar en WooCommerce"
+msgstr ""
+
+#: includes/admin-page.php:342
+msgid "Habilitar pagos con PayPal (incluye suscripciones)"
+msgstr ""
+
+#: includes/admin-page.php:355
+msgid "Habilitar pagos con tarjeta a través de Stripe"
+msgstr ""
+
+#: includes/admin-page.php:368
+msgid "Solo para donaciones únicas"
+msgstr ""
+
+#: includes/admin-page.php:373
+msgid "Gestión de Suscripciones"
+msgstr ""
+
+#: includes/admin-page.php:377
+msgid "APIs Nativas (PayPal + Stripe)"
+msgstr ""
+
+#: includes/admin-page.php:380
+msgid "WooCommerce Subscriptions"
+msgstr ""
+
+#: includes/admin-page.php:382
+msgid "Cómo manejar las donaciones recurrentes"
+msgstr ""
+
+#: includes/admin-page.php:392
+msgid "Configuración de Emails"
+msgstr ""
+
+#: includes/admin-page.php:398
+msgid "Email de Agradecimiento"
+msgstr ""
+
+#: includes/admin-page.php:408
+msgid "Enviar email automático tras cada donación"
+msgstr ""
+
+#: includes/admin-page.php:413
+msgid "Asunto del Email"
+msgstr ""
+
+#: includes/admin-page.php:421
+msgid "Asunto del email de confirmación"
+msgstr ""
+
+#: includes/admin-page.php:426
+msgid "Mensaje de Agradecimiento"
+msgstr ""
+
+#: includes/admin-page.php:435
+msgid "Variables disponibles:"
+msgstr ""
+
+#: includes/admin-page.php:441
+msgid "Notificaciones Admin"
+msgstr ""
+
+#: includes/admin-page.php:451
+msgid "Recibir notificación por email de cada donación"
+msgstr ""
+
+#: includes/admin-page.php:456
+msgid "Email del Administrador"
+msgstr ""
+
+#: includes/admin-page.php:464
+msgid "Email donde recibir las notificaciones"
+msgstr ""
+
+#: includes/admin-page.php:471
+msgid "Probar Email"
+msgstr ""
+
+#: includes/admin-page.php:472
+msgid "Envía un email de prueba para verificar la configuración:"
+msgstr ""
+
+#: includes/admin-page.php:475
+msgid "Enviar Email de Prueba"
+msgstr ""
+
+#: includes/admin-page.php:483
+msgid "Shortcodes y Integración"
+msgstr ""
+
+#: includes/admin-page.php:488
+msgid "Formulario Completo"
+msgstr ""
+
+#: includes/admin-page.php:494
+msgid "Formulario completo de donación con todos los campos"
+msgstr ""
+
+#: includes/admin-page.php:498
+msgid "Formulario Personalizado"
+msgstr ""
+
+#: includes/admin-page.php:504
+msgid "Versión simplificada con montos personalizados"
+msgstr ""
+
+#: includes/admin-page.php:508
+msgid "Botón de Donación"
+msgstr ""
+
+#: includes/admin-page.php:514
+msgid "Botón directo para donación con monto fijo"
+msgstr ""
+
+#: includes/admin-page.php:518
+msgid "Barra de Progreso"
+msgstr ""
+
+#: includes/admin-page.php:524
+msgid "Barra de progreso hacia una meta de donaciones"
+msgstr ""
+
+#: includes/admin-page.php:529
+msgid "Páginas Creadas Automáticamente"
+msgstr ""
+
+#: includes/admin-page.php:536
+msgid "Página de Donaciones:"
+msgstr ""
+
+#: includes/admin-page.php:541
+msgid "Editar"
+msgstr ""
+
+#: includes/admin-page.php:548
+msgid "Página de Agradecimiento:"
+msgstr ""
+
+#: includes/admin-page.php:559
+msgid "Consejo:"
+msgstr ""
+
+#: includes/admin-page.php:560
+msgid "Puedes usar los shortcodes en páginas, entradas, widgets y incluso en archivos de tema usando"
+msgstr ""
+
+#: includes/admin-page.php:568
+msgid "Guardar Cambios"
+msgstr ""
+
+#: includes/admin-page.php:571
+msgid "Restaurar Valores por Defecto"
+msgstr ""
+
+#: includes/admin-page.php:575
+msgid "Ver Reportes"
+msgstr ""
+
+#: includes/reports-page.php:15
+msgid "📊 Reportes de Donaciones"
+msgstr ""
+
+#: includes/reports-page.php:16
+msgid "Estadísticas y análisis - %s"
+msgstr ""
+
+#: includes/reports-page.php:124
+msgid "Últimos 7 días"
+msgstr ""
+
+#: includes/reports-page.php:127
+msgid "Últimos 30 días"
+msgstr ""
+
+#: includes/reports-page.php:130
+msgid "Últimos 3 meses"
+msgstr ""
+
+#: includes/reports-page.php:133
+msgid "Último año"
+msgstr ""
+
+#: includes/reports-page.php:136
+msgid "Todos los datos"
+msgstr ""
+
+#: includes/reports-page.php:139
+msgid "Personalizado"
+msgstr ""
+
+#: includes/reports-page.php:144
+msgid "Período:"
+msgstr ""
+
+#: includes/reports-page.php:155
+msgid "Desde:"
+msgstr ""
+
+#: includes/reports-page.php:158
+msgid "Hasta:"
+msgstr ""
+
+#: includes/reports-page.php:162
+msgid "Aplicar Filtros"
+msgstr ""
+
+#: includes/reports-page.php:174
+msgid "Total Recaudado"
+msgstr ""
+
+#: includes/reports-page.php:183
+msgid "Total Donaciones"
+msgstr ""
+
+#: includes/reports-page.php:192
+msgid "Donaciones Recurrentes"
+msgstr ""
+
+#: includes/reports-page.php:201
+msgid "Promedio por Donación"
+msgstr ""
+
+#: includes/reports-page.php:210
+msgid "Tendencia de Donaciones (Últimos 12 Meses)"
+msgstr ""
+
+#: includes/reports-page.php:215
+msgid "Métodos de Pago"
+msgstr ""
+
+#: includes/reports-page.php:235
+msgid "%d donaciones"
+msgstr ""
+
+#: includes/reports-page.php:241
+msgid "No hay datos disponibles para este período."
+msgstr ""
+
+#: includes/reports-page.php:251
+msgid "🏆 Top Donantes"
+msgstr ""
+
+#: includes/reports-page.php:254
+msgid "Ver Todos los Donantes"
+msgstr ""
+
+#: includes/reports-page.php:261
+msgid "Donante"
+msgstr ""
+
+#: includes/reports-page.php:262
+msgid "Email"
+msgstr ""
+
+#: includes/reports-page.php:263
+msgid "Total Donado"
+msgstr ""
+
+#: includes/reports-page.php:265
+msgid "Última Donación"
+msgstr ""
+
+#: includes/reports-page.php:279
+msgid "No hay donantes para mostrar en este período."
+msgstr ""
+
+#: includes/reports-page.php:287
+msgid "🌍 Donaciones por País"
+msgstr ""
+
+#: includes/reports-page.php:293
+msgid "País"
+msgstr ""
+
+#: includes/reports-page.php:296
+msgid "Promedio"
+msgstr ""
+
+#: includes/reports-page.php:324
+msgid "No hay datos de países para mostrar."
+msgstr ""
+
+#: includes/reports-page.php:332
+msgid "📁 Exportar Datos"
+msgstr ""
+
+#: includes/reports-page.php:333
+msgid "Descarga los datos de donaciones para contabilidad o análisis:"
+msgstr ""
+
+#: includes/reports-page.php:340
+msgid "Exportar CSV"
+msgstr ""
+
+#: includes/reports-page.php:346
+msgid "Exportar Excel"
+msgstr ""
+
+#: includes/donors-page.php:15
+msgid "👥 Gestión de Donantes"
+msgstr ""
+
+#: includes/donors-page.php:16
+msgid "Total: %d donantes registrados"
+msgstr ""
+
+#: includes/donors-page.php:27
+msgid "Buscar por nombre o email..."
+msgstr ""
+
+#: includes/donors-page.php:31
+msgid "Buscar"
+msgstr ""
+
+#: includes/donors-page.php:36
+msgid "Limpiar"
+msgstr ""
+
+#: includes/donors-page.php:42
+msgid "Acciones en lote"
+msgstr ""
+
+#: includes/donors-page.php:43
+msgid "Exportar seleccionados"
+msgstr ""
+
+#: includes/donors-page.php:44
+msgid "Enviar email masivo"
+msgstr ""
+
+#: includes/donors-page.php:47
+msgid "Aplicar"
+msgstr ""
+
+#: includes/donors-page.php:75
+msgid "Ver Historial"
+msgstr ""
+
+#: includes/donors-page.php:79
+msgid "Enviar Email"
+msgstr ""
+
+#: includes/donors-page.php:83
+msgid "Exportar"
+msgstr ""
+
+#: includes/donors-page.php:98
+msgid "Promedio: %s"
+msgstr ""
+
+#: includes/donors-page.php:116
+msgid "Primera: %s"
+msgstr ""
+
+#: includes/donors-page.php:131
+msgid "No se encontraron donantes que coincidan con tu búsqueda."
+msgstr ""
+
+#: includes/donors-page.php:133
+msgid "No hay donantes registrados aún."
+msgstr ""
+
+#: includes/donors-page.php:150
+msgid "Historial de Donaciones"
+msgstr ""
+
+#: includes/donors-page.php:154
+msgid "Cargando..."
+msgstr ""
+
+#: includes/donors-page.php:161
+msgid "Enviar Email a Donante"
+msgstr ""
+
+#: includes/donors-page.php:172
+msgid "Asunto:"
+msgstr ""
+
+#: includes/donors-page.php:177
+msgid "Mensaje:"
+msgstr ""
+
+#: includes/donors-page.php:187
+msgid "Cancelar"
+msgstr ""
+
+#: assets/js/frontend.js:234
+msgid "Por favor selecciona una cantidad válida"
+msgstr ""
+
+#: assets/js/frontend.js:286
+msgid "Este campo es obligatorio"
+msgstr ""
+
+#: assets/js/frontend.js:291
+msgid "Por favor ingresa un email válido"
+msgstr ""
+
+#: assets/js/frontend.js:315
+msgid "El monto mínimo es %s"
+msgstr ""
+
+#: assets/js/frontend.js:345
+msgid "Por favor corrige los errores antes de continuar."
+msgstr ""
+
+#: assets/js/frontend.js:382
+msgid "¡Gracias por tu donación!"
+msgstr ""
+
+#: assets/js/frontend.js:390
+msgid "Error al procesar la donación."
+msgstr ""
+
+#: assets/js/frontend.js:396
+msgid "Error de conexión. Por favor intenta de nuevo."
+msgstr ""
+
+#: assets/js/admin.js:156
+msgid "Enviando..."
+msgstr ""
+
+#: assets/js/admin.js:178
+msgid "Email enviado correctamente."
+msgstr ""
+
+#: assets/js/admin.js:182
+msgid "Error al enviar el email."
+msgstr ""
+
+#: assets/js/admin.js:194
+msgid "¿Estás seguro de que quieres restaurar los valores por defecto? Esta acción no se puede deshacer."
+msgstr ""
+
+#: assets/js/admin.js:206
+msgid "Error al restaurar configuración"
+msgstr ""
+
+#: assets/js/admin.js:210
+msgid "Error de conexión"
+msgstr ""
+
+#: assets/js/admin.js:252
+msgid "Guardado automáticamente"
+msgstr ""
+
+#: assets/js/admin.js:305
+msgid "Valor mínimo: %d"
+msgstr ""
+
+#: assets/js/admin.js:307
+msgid "Valor máximo: %d"
+msgstr ""
+
+#: assets/js/admin.js:364
+msgid "Cargando historial..."
+msgstr ""
+
+#: assets/js/admin.js:368
+msgid "Error al cargar el historial."
+msgstr ""
+
+#: assets/js/admin.js:373
+msgid "Error de conexión."
+msgstr ""
+
+#: assets/js/admin.js:394
+msgid "Selecciona una acción."
+msgstr ""
+
+#: assets/js/admin.js:398
+msgid "Selecciona al menos un donante."
+msgstr ""
+
+#: assets/js/admin.js:437
+msgid "Tienes cambios sin guardar. ¿Estás seguro de que quieres salir?"
+msgstr ""
+
+#. Translators: %s is the currency symbol and amount
+msgid "Donar %s%s"
+msgstr ""
+
+#. Translators: %s is the foundation name
+msgid "Apoya %s"
+msgstr ""
+
+#. Translators: %d is the number of donors
+msgid "%d persona ha donado"
+msgid_plural "%d personas han donado"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: %s is the date range
+msgid "Del %s al %s"
+msgstr ""
+
+#. Translators: %s is the foundation name
+msgid "Mensaje de %s"
+msgstr ""
+
+#. Translators: %s is the donor name and foundation name
+msgid "Estimado/a %s,\\n\\nEsperamos que te encuentres bien.\\n\\nCon gratitud,\\n%s"
+msgstr ""
+
+#. Translators: Error message for failed donation
+msgid "Error: %s"
+msgstr ""
+
+#. Success message for completed donation
+msgid "Donación completada exitosamente"
+msgstr ""
+
+#. Loading message
+msgid "Procesando donación..."
+msgstr ""
+
+#. Validation message for minimum amount
+msgid "La cantidad mínima es %s"
+msgstr ""
+
+#. Validation message for required field
+msgid "Este campo es requerido"
+msgstr ""
+
+#. Validation message for invalid email
+msgid "Formato de email inválido"
+msgstr ""
+
+#. Payment method labels
+msgid "Pago con PayPal"
+msgstr ""
+
+msgid "Pago con Tarjeta"
+msgstr ""
+
+msgid "Transferencia Bancaria"
+msgstr ""
+
+#. Frequency labels
+msgid "Donación Única"
+msgstr ""
+
+msgid "Donación Mensual"
+msgstr ""
+
+#. Status labels
+msgid "Completada"
+msgstr ""
+
+msgid "Pendiente"
+msgstr ""
+
+msgid "Fallida"
+msgstr ""
+
+msgid "Cancelada"
+msgstr ""
+
+#. Admin notices
+msgid "Configuración guardada exitosamente"
+msgstr ""
+
+msgid "Error al guardar la configuración"
+msgstr ""
+
+msgid "Email de prueba enviado"
+msgstr ""
+
+msgid "Error al enviar email de prueba"
+msgstr ""
+
+#. Export messages
+msgid "Exportando datos..."
+msgstr ""
+
+msgid "Exportación completada"
+msgstr ""
+
+msgid "Error durante la exportación"
+msgstr ""
+
+#. Shortcode descriptions
+msgid "Formulario de donación con todas las opciones"
+msgstr ""
+
+msgid "Formulario simplificado de donación"
+msgstr ""
+
+msgid "Botón directo de donación"
+msgstr ""
+
+msgid "Indicador de progreso de meta"
+msgstr ""
+
+#. Country names (additional)
+msgid "Reino Unido"
+msgstr ""
+
+msgid "Países Bajos"
+msgstr ""
+
+msgid "Suecia"
+msgstr ""
+
+msgid "Noruega"
+msgstr ""
+
+msgid "Dinamarca"
+msgstr ""
+
+msgid "Finlandia"
+msgstr ""
+
+msgid "Suiza"
+msgstr ""
+
+msgid "Austria"
+msgstr ""
+
+msgid "Bélgica"
+msgstr ""
+
+msgid "Grecia"
+msgstr ""
+
+#. Analytics and tracking
+msgid "Donación iniciada"
+msgstr ""
+
+msgid "Monto seleccionado"
+msgstr ""
+
+msgid "Método de pago elegido"
+msgstr ""
+
+msgid "Formulario completado"
+msgstr ""
+
+#. Help tooltips
+msgid "Los montos aparecerán como botones de selección rápida"
+msgstr ""
+
+msgid "Color usado para botones y elementos destacados"
+msgstr ""
+
+msgid "Las donaciones recurrentes se procesan automáticamente cada mes"
+msgstr ""
+
+msgid "Email enviado automáticamente después de cada donación"
+msgstr ""
+
+#. Security messages
+msgid "Transacción segura garantizada"
+msgstr ""
+
+msgid "Información protegida con SSL"
+msgstr ""
+
+msgid "Datos encriptados de extremo a extremo"
+msgstr ""
+
+#. Accessibility labels
+msgid "Seleccionar monto de donación"
+msgstr ""
+
+msgid "Elegir frecuencia de pago"
+msgstr ""
+
+msgid "Método de pago preferido"
+msgstr ""
+
+msgid "Información personal del donante"
+msgstr ""
+
+#. Mobile specific
+msgid "Toca para donar"
+msgstr ""
+
+msgid "Desliza para ver más opciones"
+msgstr ""
+
+msgid "Optimizado para móviles"
+msgstr ""
+
+#. Progress widget
+msgid "Meta alcanzada exitosamente"
+msgstr ""
+
+msgid "Faltan %s para la meta"
+msgstr ""
+
+msgid "Progreso hacia la meta"
+msgstr ""
+
+msgid "%d%% completado"
+msgstr ""
+
+#. Social sharing
+msgid "Compartir esta causa"
+msgstr ""
+
+msgid "Ayuda a difundir"
+msgstr ""
+
+msgid "Invita a otros a donar"
+msgstr ""
+
+#. Time periods
+msgid "Hoy"
+msgstr ""
+
+msgid "Esta semana"
+msgstr ""
+
+msgid "Este mes"
+msgstr ""
+
+msgid "Este año"
+msgstr ""
+
+msgid "Último mes"
+msgstr ""
+
+msgid "Último año"
+msgstr ""
+
+#. Dashboard widgets
+msgid "Resumen de Donaciones"
+msgstr ""
+
+msgid "Actividad Reciente"
+msgstr ""
+
+msgid "Metas y Objetivos"
+msgstr ""
+
+msgid "Estadísticas Rápidas"
+msgstr ""
